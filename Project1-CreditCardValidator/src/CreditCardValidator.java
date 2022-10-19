@@ -2,15 +2,13 @@
  * Author: Chad Fusco
  * Class: CS111B, Summer 2022
  * Project 1: Credit Card Number Verification
- * This version fixes an error identified by the professor
- * in the readUserCreditCardNumber() method
  */
 
 import java.util.*;
 import java.time.LocalDate;
 import java.lang.Math;
 
-public class CreditCardValidatorv2 {
+public class CreditCardValidator {
 
 	public static void main(String[] args) {
 		
