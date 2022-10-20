@@ -28,6 +28,6 @@ When a student is added, the program first attempts to add the student to the ro
 The waitlist array is structured as a queue so that the first student added to the waitlist is the first student moved to the roster once a spot opens up. When a student is dropped from the roster, for example, the program automatically shifts the array and pushes the first-in student to the roster.
 When the roster is expanded, students are automatically moved from the waitlist to the roster until the roster either becomes full or the waitlist becomes empty.
 ### What I Learned
-This program was a nice exercise for me in object-oriented programming principles, and an exposure to queue and stack data structures. The program consists of three custom classes (not including the tester classes): Student, Course, and InterativeDriver. This was another good exercise to writing reusable code. In keeping with the principle of encapsulation, instance data variables are private, and getter and setter methods were written to access the variables as appropriate.
+This program was a nice exercise for me in object-oriented programming principles, and an exposure to queue and stack data structures. The program consists of three custom classes (not including the tester classes): Student, Course, and InterativeDriver. This was another good exercise to writing reusable code. In keeping with the principle of encapsulation, instance data variables and helper methods are private, and getter and setter methods were written to access the variables as appropriate.
 
-## Project 3 - Animal Kingdom
+## Project 3 - Animal Kingdom ## 🐋
