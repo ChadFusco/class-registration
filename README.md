@@ -1,8 +1,8 @@
 # cs111b-java-programs
 A sampling of programs I wrote in Java for CS111B at City College of San Francisco.  
-[Project 1 - Credit Card Validator](#project-1---credit-card-validator-💳) | [Project 2 - Course Registration](#project-2---course-registration-👨‍🎓-👩‍🎓) | [Project 3 - Animal Kingdom](#project-3---animal-kingdom-🐋)
+[Project 1 - Credit Card Validator 💳](#project-1---credit-card-validator) | [Project 2 - Course Registration 👩‍🎓](#project-2---course-registration) | [Project 3 - Animal Kingdom 🐋](#project-3---animal-kingdom)
 
-## Project 1 - Credit Card Validator 💳
+## Project 1 - Credit Card Validator
 ### What It Does
 This program validates a credit card entered by the user. Validation checks performed are:
 - Checks if card is expired.
@@ -15,9 +15,9 @@ This program validates a credit card entered by the user. Validation checks perf
 ### What I Learned
 This little project was a good refresher for me in Java fundamentals such as conditionals, logical and relational operators, looping structures, data types, and the principle of encapsulation to make reusable code. This was also good practice in programming in a strongly-typed language, as the project involves many different data types and conversions between them.
 
-## Project 2 - Course Registration 👨‍🎓 👩‍🎓
+## Project 2 - Course Registration
 ### What It Does
 This is a course registration program. The program tracks the number of the students enrolled in and waitlisted for a course. It allows the user to take the following actions:
 - Add a student
 
-## Project 3 - Animal Kingdom 🐋
+## Project 3 - Animal Kingdom
