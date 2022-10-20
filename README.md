@@ -30,4 +30,4 @@ When the roster is expanded, students are automatically moved from the waitlist 
 ### What I Learned
 This program was a nice exercise for me in object-oriented programming principles, and an exposure to queue and stack data structures. The program consists of three custom classes (not including the tester classes): Student, Course, and InterativeDriver. This was another good exercise to writing reusable code. In keeping with the principle of encapsulation, instance data variables and helper methods are private, and getter and setter methods were written to access the variables as appropriate.
 
-## Project 3 - Animal Kingdom ## \🐋
+## Project 3 - Animal Kingdom\🐋
