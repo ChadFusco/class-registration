@@ -173,12 +173,6 @@ public class CreditCardValidator {
 				tenToPosMinusOnePow);
 		return Integer.valueOf(digit);
 	}
-
-	/*
-	 * Below is a collection of helper methods you might or might not use.
-	 * Don't worry too much about understanding these- we'll learn more
-	 * about them later on. For now, you can just use them!
-	 */
 	
 	// example: pass in the char '3' and return the int 3
 	public static int convertDigitCharToInt(char digit) {

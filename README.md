@@ -12,9 +12,12 @@ This program validates a credit card entered by the user. Validation checks perf
   - has a valid number of digits.
   - starts with a 4, 5, or 6.
   - passes the Checksum test using the Luhn algorithm described [here](https://en.wikipedia.org/wiki/Luhn_algorithm).
+### What I Learned
+This little project was a good refresher for me in Java fundamentals such as conditionals, logical and relational operators, looping structures, data types, and the principle of encapsulation to make reusable code. This was also good practice in programming in a strongly-typed language, as the project involves many different data types and conversions between them.
 
-## Project 2 - Course Registration
+## Project 2 - Course Registration 👨‍🎓 👩‍🎓
+### What It Does
+This is a course registration program. The program tracks the number of the students enrolled in and waitlisted for a course. It allows the user to take the following actions:
+- Add a student
 
-sg
-
-## Project 3 - Animal Kingdom
+## Project 3 - Animal Kingdom 🐋
