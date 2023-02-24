@@ -1,5 +1,5 @@
 
-## Course Registration
+## CourseEase
 ### What It Does
 This is a course registration program. The program tracks the number of the students enrolled in and waitlisted for a course. It allows the user to take the following actions:
 1. Add a student
