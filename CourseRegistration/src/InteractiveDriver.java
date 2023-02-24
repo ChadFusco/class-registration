@@ -1,25 +1,20 @@
-/*
- * Author: Chad Fusco
- * Class: CS111B, Summer 2022
- * Project 2: Course Registration - "Interactive Driver" class
- */
 
 import java.util.*;
 
 public class InteractiveDriver {
 
 	public static void main(String[] args) {
-		
+
 		// Create a hard-coded course object
 		Course course1 = new Course("Quantum Mechanics for Poets", 2, 2);
-		
+
 		System.out.println("Welcome to the Course Registration system for the"
 				+ " following course:\n");
 		System.out.println(course1);
-		
+
 		int option;
 		Scanner scan = new Scanner(System.in);
-		
+
 		// Interactive menu
 		do {
 			System.out.println("What action would you like to take?\n"
@@ -30,9 +25,9 @@ public class InteractiveDriver {
 					+ "\tEnter 5 to expand/shrink the course waitlist\n"
 					+ "\tEnter 9 to exit");
 			option = Integer.parseInt(scan.nextLine());
-			
+
 			switch(option) {
-			
+
 				// Add a student
 				case 1:
 					System.out.println("Enter student name:");
@@ -54,7 +49,7 @@ public class InteractiveDriver {
 								+ " has not been added\n");
 					}
 					break;
-				
+
 				// Drop a student
 				case 2:
 					System.out.println("Enter student ID:");
@@ -69,12 +64,12 @@ public class InteractiveDriver {
 								+ " has not been dropped\n");
 					}
 					break;
-					
-				// Print the course	
+
+				// Print the course
 				case 3:
 					System.out.println(course1);
 					break;
-				
+
 				// Expand roster
 				case 4:
 					System.out.println("What is the new max roster size"
@@ -84,13 +79,13 @@ public class InteractiveDriver {
 						System.out.println("Roster sucessfully changed to "
 								+ maxEnrolled + " students max\n");
 					}
-					else {	
+					else {
 						System.out.println("ERROR: Max enrolled cannot be set"
 								+ " to less than the number of students "
 								+ "enrolled.\n");
 					}
 					break;
-				
+
 				// Expand waitlist
 				case 5:
 					System.out.println("What is the new max waitlist size"
@@ -100,25 +95,25 @@ public class InteractiveDriver {
 						System.out.println("Waitlist sucessfully changed to "
 								+ maxWaitlist + " max students\n");
 					}
-					else {	
+					else {
 						System.out.println("ERROR: Max waitlisted cannot be "
 								+ "set to less than the number of students"
 								+ " currently waitlisted.\n");
 					}
 					break;
-				
+
 				// Exit program
 				case 9:
 					System.out.println("Goodbye!");
 					break;
-				
+
 				// Invalid option catch
 				default:
 					System.out.println("Invalid option. Please try again");
 			}
-			
+
 		} while(option != 9);
-		
+
 		scan.close();
 
 	}
